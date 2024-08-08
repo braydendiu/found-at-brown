@@ -1,12 +1,124 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Found at Brown</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta http-equic="X-UA-Compatible" content="IE-edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Brayden Diu Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/747573e745.js" crossorigin="anonymous"></script>
+    <script src="features.js"></script>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <a href="index.html" class="my-name">Brayden Diu</a>
+            <div class="nav-container">
+                <ul>
+                    <li><a href='#header'>Home</a></li>
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#experience'>Experience</a></li>
+                    <li><a href='#footer-contact'>Contact</a></li>
+                </ul>
+                <button id="dark-mode-toggle" class="dark-mode-toggle">
+                    <i class="fa-solid fa-moon"></i>
+                    <i class="fa-solid fa-sun"></i>
+                </button>
+            </div>
+        </nav>
+        <div class="header-content">
+            <div class="profile-image">
+                <img src="IMG_7853.jpg" alt="Brayden Diu"> 
+            </div>
+            <div class="header-text">
+                <h1><span id="typing"></span></h1>
+                <p>Welcome to my personal website!</p>
+            </div>
+        </div>
+    </div>
+
+<!-- -----------about------------ -->
+<div id="about">
+    <div class="container">
+        <h1 class="about-title section-title">About Me</h1>
+        <div class="about-content">
+            <div class="about-left">
+                <h2>Get to know me!</h2>
+                <p>Hi, my name is Brayden and I am a Computer Science student at Brown University. Here's a bit more about me:</p>
+                <p>• Brown | RISD XR Hub : I'm on the Outreach Team for the XR Hub where we develop Virtual Reality applications to solve real-world issues.</p>
+                <p>• Brown CSA : I'm a current board member of Brown's Chinese Students Association where we help bring Chinese culture to the community here!</p>
+                <p>• Intramural Basketball: One of my biggest hobbies is basketball, whether that's playing on my IM team or watching the Knicks. </p>
+            </div>
+            <div class="about-right">
+                <h2>Skills</h2>
+                <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>HTML/CSS</li>
+                    <li>ArcGIS</li>
+                    <li>SQL</li>
+                    <li>Research</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="experience">
+    <div class="container">
+        <h1 class="portfolio-title section-title">Projects/Experience</h1>
+        <div class="project-container">
+            <a href="https://found-at-brown.web.app/" class="project" target="_blank">
+                <figure>
+                    <img src="foundatbrown.png" alt="Found @ Brown">
+                    <figcaption>
+                        <h3>Found @ Brown</h3>
+                        <p>This is an online marketplace I created for the Brown University community. </p>
+                        <p>Tech: React, JavaScript, HTML, CSS, Firebase</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="https://drive.google.com/file/d/1c18LPGzZGwkinD80ppQleZLjd1LsRxhd/view" class="project" target="_blank">
+                <figure>
+                    <img src="nyu poster.png" alt="NYU">
+                    <figcaption>
+                        <h3>NYU Tandon School of Engineering</h3>
+                        <p>This is an urban sustainability research project I conducted on the neighborhood of Sunset Park, Brooklyn. </p>
+                        <p>Tech: Python, ArcGIS, QGIS, Digital Twins</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="https://drive.google.com/file/d/16LSkSir9DjifK0RmASxvWfo6Bn5HXZWx/view" class="project" target="_blank">
+                <figure>
+                    <img src="YSRP Final Presentation.png" alt="York College">
+                    <figcaption>
+                        <h3>York College Psychology Department</h3>
+                        <p>This is a pyschology research project I conducted at York College. </p>
+                        <p>Tech: Qualtrics</p>
+                    </figcaption>
+                </figure>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- -------------contact----------- -->
+<div id="footer-contact">
+    <h2 class="contact-heading">Contact</h2>
+    <div class="container">
+        <div class="footer-content">
+            <div class="contact-details">
+                <p>brayden.diu123@gmail.com</p>
+                <p>brayden_diu@brown.edu</p>
+                <p>(917)873-4341</p>
+            </div>
+            <div class="social-media-icons">
+                <a href="https://www.linkedin.com/in/brayden-diu-104a82289/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/braydendiu"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
 </html>
