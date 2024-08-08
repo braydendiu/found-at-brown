@@ -10,7 +10,7 @@ Chat System: Integrated chat functionality for users to communicate directly wit
 Profile Management: Users can manage their profiles and view ongoing chats.
 Responsive Design: Mobile-friendly design to ensure accessibility on various devices.
 
-Technologies Used
+Technologies Used:
 Frontend: React, JavaScript, HTML, CSS
 Backend: Firebase Firestore, Firebase Authentication, Firebase Storage
 Hosting: Firebase Hosting
